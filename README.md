@@ -269,7 +269,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - [ ] Model fine-tuning utilities
 - [ ] API server deployment
 - [ ] Mobile app interface
-
-
-# AI-Image-Inpainting-System
-# AI-Image-Inpainting-System
