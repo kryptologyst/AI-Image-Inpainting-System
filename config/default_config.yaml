@@ -1,0 +1,28 @@
+# Default configuration for Image Inpainting System
+
+# Model settings
+model_type: "stable_diffusion"
+model_name: "runwayml/stable-diffusion-inpainting"
+device: "auto"
+
+# Inpainting parameters
+prompt: "restore the missing part naturally"
+num_inference_steps: 20
+guidance_scale: 7.5
+
+# Image processing
+max_image_size: 1024
+output_format: "PNG"
+
+# UI settings
+default_brush_size: 20
+show_intermediate_results: true
+
+# Logging
+log_level: "INFO"
+log_file: "logs/inpainting.log"
+
+# Performance
+enable_memory_efficient_attention: true
+use_safetensors: true
+torch_dtype: "float16"  # or "float32" for CPU
